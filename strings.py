@@ -64,10 +64,23 @@ print(sherlock_address)
 # replacer = street.replace('e', 'b')
 # print(replacer)  #no way
 
-
 translate_map = str.maketrans('ae', 'eb')
 trans_result = street.translate(translate_map)
 print(trans_result)
 
 street_length = len(trans_result)
 print(street_length)
+
+my_love = 'I love python'
+new_love = my_love[2:6]
+print(new_love)
+
+new_love = my_love[-6:-1]
+new_love = my_love[-6:]
+new_love = my_love[:-5]
+new_love = my_love[::-1]
+print(new_love)
+
+
+print(new_love)
+
